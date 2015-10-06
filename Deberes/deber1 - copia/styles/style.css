@@ -1,0 +1,65 @@
+
+div.menu{
+  background: #FF9800;
+      margin-top: 2%;
+      text-align: center;
+}
+
+ .h1InsideMenu {
+  display:inline;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-family: monospace;
+}
+
+.contenedor{
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: block;
+
+}
+
+.topico, .nombre{
+  text-align: center;
+}
+
+
+.contenedorIzq{
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+
+}
+.contenedorDer{
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+
+}
+
+
+body{
+  margin: auto;
+  width: 70%;
+  background: #F1F1F1;
+
+
+}
+html{
+  height: 100%;
+}
+div.footer{
+  background: #FF9800;
+  bottom:0;
+    margin-bottom: 2%;
+    position: fixed;
+    bottom: 2%;
+    width: inherit;
+}
+p{
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+}
