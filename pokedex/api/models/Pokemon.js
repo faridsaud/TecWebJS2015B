@@ -8,7 +8,27 @@
 module.exports = {
 
   attributes: {
-
+    nombre:{
+      type:'string',
+      size: 24,
+      unique: true
+    },
+    tipo1:{
+      type:'string',
+      enum:['dark', 'fire', 'water', 'dragon', 'fly']
+    },
+    tipo2:{
+      type:'string',
+      enum:['dark', 'fire', 'water', 'dragon', 'fly']
+    },
+    numero:{
+      type:'number',
+      unique: true,
+      primaryKey:true
+    },
+    habilidadEspecial:{
+      type:'string',
+      defaulsTo:'NA'
+    }
   }
 };
-
